@@ -1,0 +1,116 @@
+.card {
+    width: 250px;
+    height: min-content;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .card-title {
+    font-size: 10px;
+    font-weight: bold;
+    color: grey;
+    margin: 0;
+  }
+  
+  .profile {
+    position: relative;
+  }
+  
+  .profile-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .profile-status {
+    position: absolute;
+    bottom: -5px;
+    right: 8px;
+    width: 8px; /* Adjust size as needed */
+    height: 8px; /* Adjust size as needed */
+    border-radius: 50%;
+    border: 2px solid #fff; /* Border color */
+  }
+
+  .profile-status.online {
+    background-color: green;
+  }
+  
+  .profile-status.offline {
+    background-color: grey;
+  }
+  
+  .card-body {
+    margin: 0 0;
+  }
+
+  .initials {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: bold;
+    margin-right: 12px;
+  }
+  
+  .task-description {
+    font-size: 10px;
+    font-weight: 500;
+    text-overflow: ellipsis;
+    text-align: start;
+    display: flex;
+    gap: 5px;
+    justify-content: start;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+  
+  .card-footer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .task-status-icon {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    border: solid lightgray 1px;
+    border-radius: 3px;
+  }
+  
+  .task-name h2 {
+    font-size: 10px;
+    color: grey;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .task-name {
+    width: max-content;
+    height: 16px;
+    padding: 0 3px;
+    border: solid lightgray 1px;
+    border-radius: 3px;
+  }
+  
